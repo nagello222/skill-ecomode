@@ -26,3 +26,13 @@ Copy this skill into your Claude skills directory:
 ```
 ~/.claude/skills/token-ecomode/
 ```
+
+## Reference
+
+This skill is informed by the findings of:
+
+> Gao, Y., Li, Z., Yuan, Y., Ji, Z., Ma, P., & Wang, S. (2026).
+> **SkillReducer: Optimizing LLM Agent Skills for Token Efficiency.**
+> *arXiv:2603.29919v1* — [https://arxiv.org/abs/2603.29919](https://arxiv.org/abs/2603.29919)
+
+Key findings applied here: 60%+ of skill body content is non-actionable; removing it reduces attention dilution and improves functional quality by 2.8% (less-is-more effect).
